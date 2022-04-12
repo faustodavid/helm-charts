@@ -16,7 +16,7 @@ Entries should include a reference to the Pull Request that introduced the chang
 * [CHANGE] **Breaking** Configuration for Grafana Enterprise Metrics is now in the value `mimir.config` as a helm template **string**.
   Please consult the [Grafana Enterprise Migration Guide](https://grafana.com/docs/enterprise-metrics/latest/) to learn more about how to upgrade the configuration.
   Except for the following parameters specified as command line parameters in the Pod templates,
-  everything is now set in this string typed value, giving a definite source of configuration.
+  everything is now set in this string-typed value, giving a definitive source of configuration.
   Exceptions:
     > The `-target=` must be provided individually.\
     The `-config.file=` obviously.\
