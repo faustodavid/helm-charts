@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to this library will be documented in this file.
+All notable changes to this chart will be documented in this file.
 
 Entries should be ordered as follows:
 - [CHANGE]
